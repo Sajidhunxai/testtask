@@ -67,7 +67,7 @@ const SkewedImages = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-20 text-5xl font-bold text-blue-700 leading-[52.44px] max-md:mt-10 max-md:text-4xl">
+              <div className="mt-20 text-[16px] font-bold text-blue-700 leading-[52.44px] max-md:mt-10 max-md:text-4xl">
                 <h1 aria-hidden="true" class="text-blue-700  text filter-text">
                   Our Experts
                 </h1>

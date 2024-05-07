@@ -70,10 +70,10 @@ button {
   font-size: 16px;
   font-family: "Geist Sans", sans-serif;
   font-weight: 600;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   border-radius: 18px;
   border: 0;
   mix-blend-mode: difference;
