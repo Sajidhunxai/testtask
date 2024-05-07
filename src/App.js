@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import gsap from "gsap";
+import '../src/App.css'
 
 const SkewedImages = () => {
   const wrapperRef = useRef(null);
@@ -121,13 +122,13 @@ const SkewedImages = () => {
                                             tailored to youLorem ipsum dolor sit
                                             amet, Lorem ipsum dolor
                                           </p>
-                                          <button className="flex justify-between w-32 pt-8 text-[#194bfd]">
+                                          <a className="flex justify-between w-32 pt-8 text-[#194bfd]">
                                             Start Course
                                             <img
                                               className="w-[25px] h-[25px] "
                                               srcSet="/arrow.png"
                                             />
-                                          </button>
+                                          </a>
                                         </div>
                                       </div>
                                     </>
@@ -135,8 +136,11 @@ const SkewedImages = () => {
                                 })}
                               </div>
                             </div>
+                            
                           </div>
-
+                          <div className="w-full h-full flex items-center justify-center">
+                                <button></button>
+                                </div>
                           {/* <div data-speed="1.8"  className="dd flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col grow justify-center px-2.5 py-3 w-full text-2xl font-semibold text-center text-white uppercase backdrop-blur-[25px] bg-slate-900 bg-opacity-80 rounded-[30px] max-md:mt-8">
                     <div className="flex flex-col items-center px-16 pt-7 pb-14 border-solid border-[3px] border-blue-700 border-opacity-0 rounded-[30px] max-md:px-5">
