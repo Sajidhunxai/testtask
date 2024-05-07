@@ -30,6 +30,9 @@ const SkewedImages = () => {
       style={{ overflowY: "scroll", height: "120vh" }}
     >
       <div className="App">
+      <div className="w-full h-full flex items-center justify-center btn-fixed">
+                                <button>Get started</button>
+                                </div>
         <div className="circle gradient-green">
           <div className="flex flex-col items-center px-16 pt-7 pb-20 bg-slate-950 max-md:px-5">
             <div className="flex flex-col items-center w-full max-w-[1180px] max-md:max-w-full">
@@ -138,9 +141,7 @@ const SkewedImages = () => {
                             </div>
                             
                           </div>
-                          <div className="w-full h-full flex items-center justify-center">
-                                <button></button>
-                                </div>
+                         
                           {/* <div data-speed="1.8"  className="dd flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col grow justify-center px-2.5 py-3 w-full text-2xl font-semibold text-center text-white uppercase backdrop-blur-[25px] bg-slate-900 bg-opacity-80 rounded-[30px] max-md:mt-8">
                     <div className="flex flex-col items-center px-16 pt-7 pb-14 border-solid border-[3px] border-blue-700 border-opacity-0 rounded-[30px] max-md:px-5">

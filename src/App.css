@@ -54,11 +54,18 @@ body {
   z-index: 2;
 }
 
-button {
+.btn-fixed {
   position: fixed;
-  bottom: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;height: 98vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 111;
+}
+
+button {
+  position: relative;
   z-index: 1111;
   font-size: 16px;
   font-family: "Geist Sans", sans-serif;
