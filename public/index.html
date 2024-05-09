@@ -10,6 +10,10 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -26,8 +30,12 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -41,4 +49,12 @@
     -->
   </body>
   
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+				duration: 1000
+    });
+  </script>
 </html>

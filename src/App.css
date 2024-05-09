@@ -56,11 +56,8 @@ body {
 
 .btn-fixed {
   position: fixed;
-  top: 0;height: 98vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  bottom: 0; 
+
   z-index: 111;
 }
 
@@ -83,26 +80,7 @@ button {
   box-shadow:  0px 12px 23px rgba(0,56,97,1);
 }
 
-button::before {
-  content: "Get Started";
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  z-index: 2;
-  mix-blend-mode: none;
-}
 
-button::after {
-  content: "";
-  left: 8%;
-  right: 8%;
-  height: 12%;
-  top: 130%;
-  position: absolute;
-  border-radius: 100px;
-  mix-blend-mode: difference;
-}
 
 button:is(:hover, :focus-visible) {
   filter: brightness(0.5);
